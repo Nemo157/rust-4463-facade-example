@@ -1,0 +1,9 @@
+[package]
+name = "mylib"
+version = "0.1.0"
+authors = ["Wim Looman <wim@nemo157.com>"]
+edition = "2018"
+
+[dependencies]
+futures = { path = "../futures" }           # private
+futures-core = { path = "../futures-core" } # public
